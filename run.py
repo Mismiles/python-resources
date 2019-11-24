@@ -40,4 +40,4 @@ def user(username):
 
 
 app.run(host=os.getenv("IP", "0.0.0.0"),
-        port=int(os.getenv("PORT", "5000")), debug=False)
+        port=int(os.getenv("PORT")), debug=False)
